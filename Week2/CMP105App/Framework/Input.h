@@ -12,7 +12,7 @@ private:
 	struct Mouse
 	{
 		int x, y;
-		bool left, right;
+		bool left=false, right=false;
 	};
 
 public:

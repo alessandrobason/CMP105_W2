@@ -163,11 +163,16 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="DO_NOT_EDIT.txt" />
+    <Text Include="Framework\DO_NOT_EDIT.txt" />
+    <Text Include="Framework\README.txt" />
     <Text Include="README.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Framework\Input.h" />
     <ClInclude Include="Level.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="font\arial.ttf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

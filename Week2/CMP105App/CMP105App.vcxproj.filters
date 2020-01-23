@@ -35,6 +35,8 @@
     <Text Include="DO_NOT_EDIT.txt">
       <Filter>Framework</Filter>
     </Text>
+    <Text Include="Framework\DO_NOT_EDIT.txt" />
+    <Text Include="Framework\README.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Framework\Input.h">
@@ -43,5 +45,8 @@
     <ClInclude Include="Level.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="font\arial.ttf" />
   </ItemGroup>
 </Project>
